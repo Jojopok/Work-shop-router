@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>Rechercher un étudiant Wild</h1>
+  <form (submit)="onSubmit()">
+    <input type="text" name="nameWilder" [(ngModel)]="nameWilder" placeholder="Nom de l'étudiant">
+    <button type="submit">Rechercher</button>
+  </form>
+  <router-outlet></router-outlet>
+</div>
